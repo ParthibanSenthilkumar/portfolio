@@ -148,17 +148,12 @@ header.header-area {
 header.header-area.sticky {
     position: fixed;
     transition: 0.7s;
-    background: #fff !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 0px 0px;
     z-index: 2222;
-    filter: drop-shadow(2px 4px 6px #464646);
-    border-radius: 15px;
-    margin: 5px auto 0px;
-	max-width: 1440px;
-	margin-left: -6px !important;
+    background: #052d2926;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid #9999995c;
 }
 
 /******=======  STICKY_HEADER PART END  =======******/
