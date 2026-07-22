@@ -51,7 +51,7 @@
           <header class="header-area">
             <nav class="navbar navbar-expand-lg">
               <div class="container">
-                <a class="navbar-brand" href="#"><img src="Assets/images/logo.png"
+                <a class="navbar-brand" href="index.html"><img src="Assets/images/logo.png"
                     alt class="img-fluid hvr-bob"></a>
                 <button class="navbar-toggler" type="button"
                   data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -68,14 +68,19 @@
                       <a class="nav-link" href="#About">About Us</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="#Portfolio">Portfolio</a>
                     </li>
+
                     <li class="nav-item">
                       <a class="nav-link" href="#Contact">Contact Us</a>
                     </li>
+                    
                   </ul>
                   <div class="top_but">
-                    <a href="Assets/images/PARTHIBAN S.pdf" class="banner_but " download="Parthiban-CV.pdf"><span class="but_hov"> Download CV </a>
+                    <a href="Assets/images/Parthiban-Resume.pdf" class="banner_but " download="Parthiban-CV.pdf"><span class="but_hov"> Download CV </a>
                   </div>
                 </div>
               </div>
@@ -89,7 +94,7 @@
                             <h5>Welcome to My Portfolio</h5>
                             <h2>I’m a <span id="typed-text"></span></h2>
                             <p>Hi, I'm <strong>S Parthiban</strong>, a Frontend Developer with 2+ years of experience in HTML, CSS, JavaScript, and Bootstrap. I've built projects using React.js, TypeScript, and WordPress, with a strong focus on creating responsive, user-friendly, and visually appealing web applications. I enjoy transforming Figma designs into pixel-perfect interfaces, integrating REST APIs, and developing reusable UI components. Passionate about continuous learning, I strive to build modern, scalable, and high-performance web experiences.</p>
-                            <a href="Assets/images/PARTHIBAN S.pdf" class="banner_but" data-fancybox="gallery" ><span class="but_hov">View Cv</a>
+                            <a href="Assets/images/Parthiban-Resume.pdf" class="banner_but" data-fancybox="gallery" ><span class="but_hov">View Cv</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -119,19 +124,19 @@
               <div class="about_group">
                   <div class="head">
                       <h1><span>ABOUT</span> ME</h1>
-                      <p>Hi, I'm <strong>Parthiban S</strong>, a passionate Frontend Developer with <span> 2+ years</span> of <span> experience</span>  building responsive websites using <span>  HTML, CSS, JavaScript, and Bootstrap.</span> I've also built projects with <span> React.js, TypeScript, and WordPress.</span> I enjoy transforming Figma designs into pixel-perfect interfaces and creating clean, user-friendly web applications. </p>
+                      <p style="text-align: justify;">Hi, I'm <strong>Parthiban-Resume</strong>, a passionate Frontend Developer with <span> 2+ years</span> of <span> experience</span>  building responsive websites using <span>  HTML, CSS, JavaScript, and Bootstrap.</span> I've also built projects with <span> React.js, TypeScript, and WordPress.</span> I enjoy transforming Figma designs into pixel-perfect interfaces and creating clean, user-friendly web applications. </p>
                   </div>
                   
                   <div class="abt_text_content head">
-                    <div class="section">
-                      <h1>My <span>Skills</span></h1>
+                    <div class="section" style="text-align: justify;">
+                      <h1 >My <span>Skills</span></h1>
                       <h3>HTMl & css</h3 >
                       <h3>JavaScript</h3>
                       <h3>Bootstrap</h3>
                       <h3>React</h3>
                       <h3>Wordpress</h3>
                     </div>
-                      <div class="section">
+                      <div class="section" style="text-align: justify;"> 
                       <h1>Tools</h1>
                       <h3>Git & GitHub</h3>
                       <h3>REST API</h3>
@@ -146,7 +151,7 @@
                   <h3><i class="ri-mail-line"></i> Parthiban.dev06@gmail.com</h3>
                   <h3><i class="ri-map-pin-line"></i>Thondamuthur,Coimbatore-641109</h3>
               </div>
-               <a href="Assets/images/PARTHIBAN S.pdf" class="banner_but " download="Parthiban-CV.pdf"><span class="but_hov"> Download CV </a>
+               <a href="Assets/images/Parthiban-Resume.pdf" class="banner_but " download="Parthiban-CV.pdf"><span class="but_hov"> Download CV </a>
           </div>
         </div>
     </div>
@@ -156,7 +161,7 @@
 
 <!--======  Education section Start ======-->
 
-<section class="education_section ">
+<section class="education_section" id="Experience">
   <div class="container">
     <div class="head">
      <h1>Education & <span>Experience</span></h1> 
@@ -217,10 +222,25 @@
   <div class="container">
     <div class="head text-center">
       <h1>Featured <span>Projects</span></h1>
-      <p>Explore some of my recent projects built with modern web technologies</p>
+      <!-- <p>Explore some of my recent projects built with modern web technologies</p> -->
     </div>
 
-    <div class="work_group">
+    <div class="work_group mt-5">
+      <div class="work_card">
+        <div class="work_img_box">
+          <img src="Assets/images/work_img13.png" alt="Movie App" class="work_img img-fluid">
+          <div class="work_overlay">
+            <a href="https://movimyapps.netlify.app/" target="_blank" class="work_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work_info">
+          <h3>Movie App</h3>
+          <p>React-based movie discovery application with TMDB API integration, featuring movie search, trending titles, detailed movie information, and a fully responsive user interface.</p>
+          <div class="work_tags">
+           <span>JavaScript</span> <span>React</span><span>TMDB API</span> <span>Axios</span><span>Firebase</span><span>Responsive UI</span>
+          </div>
+        </div>
+      </div>
       <div class="work_card">
         <div class="work_img_box">
           <img src="Assets/images/work_img1.png" alt="Lavita" class="work_img img-fluid">
@@ -232,39 +252,24 @@
           <h3>Lavita</h3>
           <p>Crypto and real estate investment platform featuring investment plans, a user dashboard, referral system, secure authentication, and a fully responsive design for an enhanced user experience.</p>
           <div class="work_tags">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
           </div>
         </div>
       </div>
 
       <div class="work_card">
         <div class="work_img_box">
-          <img src="Assets/images/work_img2.png" alt="Eshop" class="work_img img-fluid">
+          <img src="Assets/images/work_img14.png" alt="Eshop" class="work_img img-fluid">
           <div class="work_overlay">
             <a href="https://eshop.fwh.is/" target="_blank" class="work_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
         <div class="work_info">
           <h3>Eshop</h3>
-          <p>Responsive e-commerce storefront with product listing, cart and checkout flow.</p>
+          <p>Responsive e-commerce website with product listings, shopping cart, and checkout functionality. Designed with a user-friendly interface, optimized for seamless browsing, and fully responsive across desktop, tablet, and mobile devices.
+          </p>
           <div class="work_tags">
             <span>WordPress</span><span>Elementor</span><span>Responsive</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="work_card">
-        <div class="work_img_box">
-          <img src="Assets/images/work_img3.png" alt="Movie App" class="work_img img-fluid">
-          <div class="work_overlay">
-            <a href="https://movimyapps.netlify.app/" target="_blank" class="work_link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-          </div>
-        </div>
-        <div class="work_info">
-          <h3>Movie App</h3>
-          <p>Movie discovery app with search, trending titles and detail view.</p>
-          <div class="work_tags">
-            <span>React</span><span>TMDB API</span> <span>Axios</span><span>Responsive UI</span>
           </div>
         </div>
       </div>
@@ -393,5 +398,9 @@ window.onload = type;
 </body>
 </body>
 </html>
+
+
+
+
 
 
